@@ -793,12 +793,20 @@ a.navbar-item:hover::after{
     }
 
     .heroBody__h1{
-        font-size: 42px;
+        font-size: 44px;
     }
 
     .heroBody__description{
         font-size: 32px;
     }
+
+    .arrow_a{
+        font-size: 24px;
+    }
+
+    .arrow {
+        margin-top: 45px;
+      }
 
         /***********************/
     /* sobre mi */
@@ -829,4 +837,54 @@ a.navbar-item:hover::after{
 
 }
 
+@media screen and (max-width: 375px){
+
+    .heroBody__saludo{
+        font-size: 30px;
+    }
+
+    .heroBody__h1{
+        font-size: 42px;
+    }
+
+    .heroBody__description{
+        font-size: 30px;
+    }
+
+    .arrow_a{
+        font-size: 22px;
+    }
+
+    .arrow {
+        margin-top: 45px;
+      }
+
+              /***********************/
+    /* sobre mi */
+    /************************/
+
+    .aboutUs__col1{
+        height: 400px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .aboutUs__img{
+        margin-top: 10px;
+        margin-bottom: 10px;
+        width: 270px;
+        height: 350px;
+    }
+
+
+    /**************************************/
+    /***          fOOOTER ************/
+    /*******************************/
+
+    .footer__p{
+        font-size: 12px;
+    }
+
+}
 
