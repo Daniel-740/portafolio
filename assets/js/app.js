@@ -1,4 +1,21 @@
 
+function closeLoader(){
+  
+        let contenedor = document.getElementById('container_loader');
+        contenedor.classList.add('container_loader--close')
+
+}
+
+
+window.addEventListener('load', () => {
+    let contenedor = document.getElementById('container_loader');
+
+    contenedor.style.visibility = 'hiden';
+    contenedor.style.opacity = '0';
+
+    closeLoader();
+})
+
 
 /**** TypeWriter Animation  ***/
 
