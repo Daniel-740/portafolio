@@ -826,6 +826,21 @@ a.navbar-item:hover::after{
         height: 350px;
     }
 
+    .modal-card-title{
+        font-size: 20px;
+    }
+
+    .pTitle{
+        font-size: 22px;
+    }
+
+
+    .tecno__img{
+        height: 20px;
+        width: 20px;
+        margin-right: 5px;
+    }
+
 
     /**************************************/
     /***          fOOOTER ************/
@@ -877,6 +892,25 @@ a.navbar-item:hover::after{
         height: 350px;
     }
 
+    .modal-card-title{
+        font-size: 18px;
+    }
+
+    .pTitle{
+        font-size: 20px;
+    }
+
+    .tecno__p{
+        display: flex;
+        align-items: center;
+        margin-right: 25px;
+    }
+    
+    .tecno__img{
+        height: 20px;
+        width: 20px;
+        margin-right: 5px;
+    }
 
     /**************************************/
     /***          fOOOTER ************/
@@ -885,6 +919,8 @@ a.navbar-item:hover::after{
     .footer__p{
         font-size: 12px;
     }
+
+
 
 }
 
