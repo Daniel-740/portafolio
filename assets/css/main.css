@@ -789,15 +789,15 @@ a.navbar-item:hover::after{
     /******************************************/
 
     .heroBody__saludo{
-        font-size: 36px;
+        font-size: 32px;
     }
 
     .heroBody__h1{
-        font-size: 50px;
+        font-size: 42px;
     }
 
     .heroBody__description{
-        font-size: 36px;
+        font-size: 32px;
     }
 
         /***********************/
