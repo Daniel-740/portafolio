@@ -327,7 +327,7 @@ a.navbar-item:hover::after{
 
 .aboutUs__img{
     height: 500px;
-    width: 400px;
+    width: 380px;
     /*object-fit: cover;
     object-position: center;*/
     border: 10px solid #fff;
